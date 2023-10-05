@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+.one{
+    background-image: url(./images/IMG_20221016_095621707.jpg);
+    background-size: 1000px 900px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #acc2d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.heading h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.two{
+    background-image: url(./images/568579-alone-autumn.jpg);
+    background-size: 1000px 900px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #acc2d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.intro{
+    background-color: #acc2d9;
+    text-align: center;
+    height: 130px;
+    width: 800px;
+}
+.two h2{
+    font-size: 30px;
+}
+.two p{
+    font-size: 16px;
+}
+.three{
+    background-image: url(./images/IMG_20221016_103213291.jpg);
+    background-size: 100% ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #acc2d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+.section1{
+    text-align: center;
+    color: #FFFF00;
+}
+.section1 h2{
+    font-size: 30px;
+}
+.section1 p{
+    font-size: 16px;
+}
+.four-gallery, .five-gallery{
+    height: 50vh;
+    padding-left: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #acc2d9;
+}
+.gallerysec1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+.gallerysec2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+img{
+    width: 24.5%;
+    /* height: 650px; */
+    height: 100%;
+    animation: expand 1s linear;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.six{
+    height: 100vh;
+    background-image: url(./images/IMG_20221016_091515614.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six p,h2{
+    /* color: cyan; */
+}
+.sectin6{
+    text-align: center;
+    background-color: rgb(40, 139, 106);
+}
+
+.seven{
+    height: 100vh;
+    background-image: url(./images/IMG_20221016_091400906~2.jpg);
+    background-size: 100% 900px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectin7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sectin7 p{
+    color: #f73e0f;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgba(140, 255, 105, .7);
+}
